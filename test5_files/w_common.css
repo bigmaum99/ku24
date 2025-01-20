@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+/*사이트맵*/
+._stMpWrap {
+  padding-left: 300px;
+}
+._stMpWrap > a {
+  font-size: 25px;
+  width: 280px;
+  word-break:break-all;
+}
+@media only screen and (max-width:768px){
+  ._stMpWrap {padding-left:0;}
+  ._stMpWrap > a {width:100%;}
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*.eQ01 .wrap_sub_visual::before{background:url(/sites/ceri/images/sub_visual.jpg) no-repeat center;}*/
+.eQ01 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_26.jpg) no-repeat center;}
+.eQ02 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_19.jpg) no-repeat center;}
+.eQ03 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_21.jpg) no-repeat center;}
+.eQ04 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_12.jpg) no-repeat center;}
+.eQ05 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_5.jpg) no-repeat center;}
+.eQ06 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_22.jpg) no-repeat center;}
+.eQ07 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_25.jpg) no-repeat center;}
+.eQ08 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_8.jpg) no-repeat center;}
+.eQ09 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_19.jpg) no-repeat center;}
+.eQ010 .wrap_sub_visual::before{background:url(/sites/style_guide/images/sub/sub_visual_22.jpg) no-repeat center;}
+
+
+.page_title h1::after{display:none;}

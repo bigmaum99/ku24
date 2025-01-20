@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/* Font */
+@font-face{font-family:'Noto Thin';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-Thin.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-Thin.woff) format("woff")}
+@font-face{font-family:'Noto Light';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-Light.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-Light.woff) format("woff")}
+@font-face{font-family:'Noto DemiLight';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-DemiLight.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-DemiLight.woff) format("woff")}
+@font-face{font-family:'Noto Regular';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-Regular.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-Regular.woff) format("woff")}
+@font-face{font-family:'Noto Medium';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-Medium.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-Medium.woff) format("woff")}
+@font-face{font-family:'Noto Bold';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-Bold.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-Bold.woff) format("woff")}
+@font-face{font-family:'Noto Black';font-style:normal;src:url(/Web-home/_UI/font/noto/NotoSans-Black.woff2) format("woff2"),url(/Web-home/_UI/font/noto/NotoSans-Black.woff) format("woff")}
+
+@font-face{font-family:'Dream Thin';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-1Thin.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-1Thin.woff) format("woff")}
+@font-face{font-family:'Dream ExtraLight';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-2ExtraLight.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-2ExtraLight.woff) format("woff")}
+@font-face{font-family:'Dream Light';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-3Light.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-3Light.woff) format("woff")}
+@font-face{font-family:'Dream Regular';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-4Regular.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-4Regular.woff) format("woff")}
+@font-face{font-family:'Dream Medium';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-5Medium.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-5Medium.woff) format("woff")}
+@font-face{font-family:'Dream Bold';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-6Bold.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-6Bold.woff) format("woff")}
+@font-face{font-family:'Dream ExtraBold';font-style:normal;src:url(/Web-home/_UI/font/dream/S-CoreDream-7ExtraBold.woff2) format("woff2"),url(/Web-home/_UI/font/dream/S-CoreDream-7ExtraBold.woff) format("woff")}
+
+@font-face{font-family:'Gmarket Light';font-style:normal;src:url(/Web-home/_UI/font/gmarket/Gmarket-Light.woff2) format("woff2"),url(/Web-home/_UI/font/gmarket/Gmarket-Light.woff) format("woff")}
+@font-face{font-family:'Gmarket Medium';font-style:normal;src:url(/Web-home/_UI/font/gmarket/Gmarket-Medium.woff2) format("woff2"),url(/Web-home/_UI/font/gmarket/Gmarket-Medium.woff) format("woff")}
+@font-face{font-family:'Gmarket Bold';font-style:normal;src:url(/Web-home/_UI/font/gmarket/Gmarket-Bold.woff2) format("woff2"),url(/Web-home/_UI/font/gmarket/Gmarket-Bold.woff) format("woff")}
+
+@font-face{font-family:'Titil ExtraLight';font-style:normal;src:url(/Web-home/_UI/font/titillium/TitilliumWeb-ExtraLight.woff2) format("woff2"),url(/Web-home/_UI/font/titillium/TitilliumWeb-ExtraLight.woff) format("woff")}
+@font-face{font-family:'Titil Light';font-style:normal;src:url(/Web-home/_UI/font/titillium/TitilliumWeb-Light.woff2) format("woff2"),url(/Web-home/_UI/font/titillium/TitilliumWeb-Light.woff) format("woff")}
+@font-face{font-family:'Titil Regular';font-style:normal;src:url(/Web-home/_UI/font/titillium/TitilliumWeb-Regular.woff2) format("woff2"),url(/Web-home/_UI/font/titillium/TitilliumWeb-Regular.woff) format("woff")}
+@font-face{font-family:'Titil SemiBold';font-style:normal;src:url(/Web-home/_UI/font/titillium/TitilliumWeb-SemiBold.woff2) format("woff2"),url(/Web-home/_UI/font/titillium/TitilliumWeb-SemiBold.woff) format("woff")}
+@font-face{font-family:'Titil Bold';font-style:normal;src:url(/Web-home/_UI/font/titillium/TitilliumWeb-Bold.woff2) format("woff2"),url(/Web-home/_UI/font/titillium/TitilliumWeb-Bold.woff) format("woff")}
+@font-face{font-family:'Titil Black';font-style:normal;src:url(/Web-home/_UI/font/titillium/TitilliumWeb-Black.woff2) format("woff2"),url(/Web-home/_UI/font/titillium/TitilliumWeb-Black.woff) format("woff")}
+
+@font-face{font-family:'Mont ExtraLight';font-style:normal;src:url(/Web-home/_UI/font/mont/Montserrat-ExtraLight.woff2) format("woff2"),url(/Web-home/_UI/font/mont/Montserrat-ExtraLight.woff) format("woff")}
+@font-face{font-family:'Mont Light';font-style:normal;src:url(/Web-home/_UI/font/mont/Montserrat-Light.woff2) format("woff2"),url(/Web-home/_UI/font/mont/Montserrat-Light.woff) format("woff")}
+@font-face{font-family:'Mont Regular';font-style:normal;src:url(/Web-home/_UI/font/mont/Montserrat-Regular.woff2) format("woff2"),url(/Web-home/_UI/font/mont/Montserrat-Regular.woff) format("woff")}
+@font-face{font-family:'Mont Medium';font-style:normal;src:url(/Web-home/_UI/font/mont/Montserrat-Medium.woff2) format("woff2"),url(/Web-home/_UI/font/mont/Montserrat-Medium.woff) format("woff")}
+@font-face{font-family:'Mont SemiBold';font-style:normal;src:url(/Web-home/_UI/font/mont/Montserrat-SemiBold.woff2) format("woff2"),url(/Web-home/_UI/font/mont/Montserrat-SemiBold.woff) format("woff")}
+@font-face{font-family:'Mont Bold';font-style:normal;src:url(/Web-home/_UI/font/mont/Montserrat-Bold.woff2) format("woff2"),url(/Web-home/_UI/font/mont/Montserrat-Bold.woff) format("woff")}
+
+@font-face{font-family:'Play Regular';font-style:normal;src:url(/Web-home/_UI/font/play/Play-Regular.woff) format("woff")}
+@font-face{font-family:'Play Bold';font-style:normal;src:url(/Web-home/_UI/font/play/Play-Bold.woff) format("woff")}
+
+@font-face{font-family:'Sebang Regular';font-style:normal;src:url(/Web-home/_UI/font/sebang/SEBANG-Gothic.woff) format("woff")}
+@font-face{font-family:'Sebang Bold';font-style:normal;src:url(/Web-home/_UI/font/sebang/SEBANG-Gothic-Bold.woff) format("woff")}
+
+@font-face{font-family:'Myriad Light';font-style:normal;src:url(/Web-home/_UI/font/myriad/MYRIADPRO-LIGHT.woff) format("woff")}
+@font-face{font-family:'Myriad Regular';font-style:normal;src:url(/Web-home/_UI/font/myriad/MYRIADPRO-REGULAR.woff) format("woff")}
+@font-face{font-family:'Myriad SemiBold';font-style:normal;src:url(/Web-home/_UI/font/myriad/MYRIADPRO-SEMIBOLD.woff) format("woff")}
+@font-face{font-family:'Myriad Bold';font-style:normal;src:url(/Web-home/_UI/font/myriad/MYRIADPRO-BOLD.woff) format("woff")}
+
+/* CSS Reset */
+*,:after,:before,::after,::before{box-sizing:border-box;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+html,body{overflow:visible;width:100%;height:100%;font-family:'Dream Regular',sans-serif;line-height:1.4;font-size:18px;color:#333;word-break:keep-all;letter-spacing:-0.5px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button{margin:0;padding:0}
+body{word-break:keep-all;overflow-x:hidden;}
+header,article,section,nav,footer{display:block}
+img,fieldset,iframe,button{border:0 none}
+ul li{list-style:none}
+ol{padding:0 0 0 35px;}
+ol li{padding:3px 0;}
+img{width:auto;max-width:100%;vertical-align:top;}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+button{font-family:'Dream Medium',sans-serif;background-color:transparent;overflow:visible;border:0}
+a,button,input{border:0 none}
+a:focus,button:focus,input:focus,select:focus {outline: none;}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible {outline: 2px solid #333;}
+a:link,a:active,a:visited{text-decoration:none; color:#333; }
+a:hover{text-decoration:none;color:#2247a6;transition:all .125s cubic-bezier(0.7,0,0.3,1)}
+legend{*width:0;width:0;height:0;font-size:0;position:absolute;z-index:-1}
+table{width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;text-align:center}
+caption{width:0;height:0;padding:0;font-size:0;opacity:0}
+th{text-align:center}
+figure{text-align:center}
+b,h1,h2,h3,h4,h5,h6,strong{font-weight:unset !important;}
+
+/* Wizard Reset */
+.simplemodal-wrap{font-size:13px}
+.hidden{position:absolute;top:-9999px;left:-9999px;}
+._fnctWrap{line-height:1.4;}
+
+._contentBuilder ._obj ._relative ._objTool{left:0;bottom:0;right:unset !important;top:unset !important;}
+
+/* Clear Fix */
+.clearfix, .clear-fix {*zoom: 1;}
+.clearfix::after, .clear-fix::after {content: ""; display: block; clear: both;}
+
+/* Sub Contents Reset */
+.sub #_contentBuilder ._objTag,
+.sub #_contentBuilder ._objHtml,
+.sub #_contentBuilder ._objImage,
+.sub #_contentBuilder ._objWidget,
+.sub #_contentBuilder ._objHeading{height:auto !important;min-height:10px !important;z-index:auto !important;}
+.sub #_contentBuilder ._objHeading{width:100% !important;}
+
+/*SKIP*/
+.skipMenu{width:100%}
+.skipMenu .hidden{display:none}
+.skipMenu a.accessibility01{position:absolute;display:block;width:100%;left:0px;top:-9999px;text-align:center;z-index:9999}
+.skipMenu a.accessibility01:hover, a.accessibility01:focus, a.accessibility01:active{position:absolute;top:0px;padding:15px 0;font-weight:bold;color:#FFF;background:#293038;z-index:9998}
+
+/* ie noti */
+.ie .ie-noti {display:block;}
+.ie-noti {background: #fff; padding:5px 0;  border-bottom:1px solid #ddd; display:none;}
+.ie-noti .ie-noti-inner{max-width:1700px; margin:0 auto; width:100%;}
+.ie-noti p {font-size:16px; font-family:'Noto Regular';}
+.ie-noti p a.link-underline {text-decoration:underline; display:inline-block; margin-left:10px; font-family:'Noto Medium';}
+.ie-noti strong {font-size:18px; display:block; font-family:'Noto Bold';}
+
+
+/*사피리input&버튼스타일변경
+input::-ms-clear{display:none}
+input,button{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;font-family:'Dream Medium'}
+input[type="radio"]{position:relative;top:2px}
+pre{white-space:pre-line;background-color:#fff;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;overflow-y:auto}
+select::-ms-expand{display:none}
+textarea{resize:none}
+button,
+input[type=button],
+input[type=submit]{appearance:none;-webkit-appearance:none;-moz-appearance:none;}
+input[type=radio],
+input[type=checkbox]{appearance:none;-webkit-appearance:none;-moz-appearance:none;border:1px solid #888;background:#FFF;width:16px;height:16px;}
+input[type=radio]{border-radius:8px;}
+input[type=checkbox]{appearance:none;}
+input[type=radio]:checked{background:url(/sites/templet_guide/images/common/bul_radio.png) no-repeat center;}
+input[type=checkbox]:checked{background:url(/sites/templet_guide/images/common/bul_checkbox.png) no-repeat center;}
+*/

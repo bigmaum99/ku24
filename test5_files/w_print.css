@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@page {size:A4 landscape;margin:0;}
+@media print {
+  html,
+  body {height:100vh !important;margin:0;padding:0;page-break-after:auto;}
+
+  .skipMenu,
+  header,
+  .floatingNav,
+  .wrap_sub,
+  footer,
+  .goto_top{display:none !important;}  
+  .sub .wrap_contents{padding-top:0 !important;}
+  .sub .wrap_contents .container{}
+  .sub .wrap_contents .inner{max-width:100% !important;margin:10mm !important;padding:0 !important;}
+}

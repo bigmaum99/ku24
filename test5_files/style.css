@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*글로벌네비게이션*/
+#_globalNavi #_globalUl{
+	overflow: hidden;
+	position: relative;
+}
+/*목록*/
+#_globalNavi #_globalUl li{
+	float: left;
+	background: url("../images/gab.gif") no-repeat left 50%;
+	padding: 0 1em;
+}
+#_globalNavi #_globalUl li:first-child{
+	background: none;
+	padding: 0 1em 0 0;
+}
+#_globalNavi #_globalUl li._zoom,
+#_globalNavi #_globalUl li._print{
+	padding: 0;
+	background: none;
+}
+/*버튼*/
+#_globalNavi #_globalUl li._zoom ._zoomOut,
+#_globalNavi #_globalUl li._zoom ._zoomReset,
+#_globalNavi #_globalUl li._zoom ._zoomIn,
+#_globalNavi #_globalUl li._print ._printPage{
+	float: left;
+	border: 0;
+	background-image: url("../images/icon.gif");
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	text-indent: -5000px;
+}
+#_globalNavi #_globalUl li._zoom ._zoomOut{
+	background-position: -24px 0;
+	background-color: #009df5;
+}
+#_globalNavi #_globalUl li._zoom ._zoomReset{
+	background-position: -48px 0;
+	background-color: #047FC4;
+}
+#_globalNavi #_globalUl li._zoom ._zoomIn{
+	background-position: -72px 0;
+	background-color: #009df5;
+}
+#_globalNavi #_globalUl li._print ._printPage{
+	background-position: 0 0;
+	background-color: #415E70;
+	margin-left: 2px;
+}
